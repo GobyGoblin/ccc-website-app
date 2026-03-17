@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "creation": "2026-03-17 18:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "contact_section",
+  "phone",
+  "email",
+  "address",
+  "working_hours",
+  "section_break_hero",
+  "hero_tagline",
+  "hero_title",
+  "hero_subtitle",
+  "section_break_about",
+  "about_text",
+  "section_break_hero_images",
+  "hero_image_1",
+  "hero_image_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "contact_section",
+   "fieldtype": "Section Break",
+   "label": "Kontaktdaten"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Telefonnummer",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-Mail Adresse",
+   "options": "Email"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "working_hours",
+   "fieldtype": "Data",
+   "label": "Öffnungszeiten"
+  },
+  {
+   "fieldname": "section_break_hero",
+   "fieldtype": "Section Break",
+   "label": "Hero-Bereich"
+  },
+  {
+   "fieldname": "hero_tagline",
+   "fieldtype": "Data",
+   "label": "Hero Tagline (kleine Zeile)"
+  },
+  {
+   "fieldname": "hero_title",
+   "fieldtype": "Data",
+   "label": "Hero Haupttitel"
+  },
+  {
+   "fieldname": "hero_subtitle",
+   "fieldtype": "Small Text",
+   "label": "Hero Untertitel"
+  },
+  {
+   "fieldname": "section_break_about",
+   "fieldtype": "Section Break",
+   "label": "Über uns"
+  },
+  {
+   "fieldname": "about_text",
+   "fieldtype": "Text Editor",
+   "label": "Über uns Text"
+  },
+  {
+   "fieldname": "section_break_hero_images",
+   "fieldtype": "Section Break",
+   "label": "Hero Bilder"
+  },
+  {
+   "fieldname": "hero_image_1",
+   "fieldtype": "Attach Image",
+   "label": "Hero Bild 1"
+  },
+  {
+   "fieldname": "hero_image_2",
+   "fieldtype": "Attach Image",
+   "label": "Hero Bild 2"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-03-17 18:00:00",
+ "modified_by": "Administrator",
+ "module": "CCC Website",
+ "name": "CCC Company Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Website Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Guest"
+  }
+ ],
+ "states": [],
+ "track_changes": 0
+}

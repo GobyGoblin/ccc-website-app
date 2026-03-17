@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:department",
+ "creation": "2026-03-17 18:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "department",
+  "description",
+  "icon_class",
+  "contact_info",
+  "display_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Abteilung",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Zuständigkeit",
+   "reqd": 1
+  },
+  {
+   "default": "fas fa-user",
+   "fieldname": "icon_class",
+   "fieldtype": "Data",
+   "label": "Icon CSS-Klasse (z.B. fas fa-user-tie)"
+  },
+  {
+   "fieldname": "contact_info",
+   "fieldtype": "Data",
+   "label": "Kontakt (E-Mail oder Telefon)"
+  },
+  {
+   "default": "0",
+   "fieldname": "display_order",
+   "fieldtype": "Int",
+   "label": "Reihenfolge"
+  }
+ ],
+ "links": [],
+ "modified": "2026-03-17 18:00:00",
+ "modified_by": "Administrator",
+ "module": "CCC Website",
+ "name": "CCC Contact Person",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Website Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Guest"
+  }
+ ],
+ "sort_field": "display_order",
+ "sort_order": "ASC",
+ "states": [],
+ "track_changes": 0
+}
