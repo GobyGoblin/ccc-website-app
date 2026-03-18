@@ -1,0 +1,15 @@
+[project]
+name = "ccc_website"
+authors = [
+        { name = "GobyGoblin", email = "" }
+]
+description = "CCC Website"
+requires-python = ">=3.10"
+dynamic = ["version", "dependencies"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "ccc_website]
