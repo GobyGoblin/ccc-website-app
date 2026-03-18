@@ -5,6 +5,9 @@ app_description = "CCC Facility Group Website App for Frappe Builder"
 app_email = "info@ccc-facility.de"
 app_license = "MIT"
 
+# Default workspace for Website Manager role
+default_workspace = "CCC Website"
+
 # Website assets - loaded on every public page
 app_include_css = ["/assets/ccc_website/css/ccc_website.css"]
 app_include_js = ["/assets/ccc_website/js/ccc_website.js"]
@@ -19,4 +22,5 @@ fixtures = [
     {"dt": "CCC Process Step"},
     {"dt": "CCC Contact Person"},
     {"dt": "CCC Company Settings"},
+    {"dt": "Workspace", "filters": [["name", "=", "CCC Website"]]},
 ]

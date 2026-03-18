@@ -1,0 +1,67 @@
+{
+  "name": "CCC Website",
+  "label": "CCC Website",
+  "icon": "globe",
+  "module": "CCC Website",
+  "roles": [{"role": "Website Manager"}],
+  "sequence_id": 1,
+  "shortcuts": [
+    {
+      "label": "Einstellungen",
+      "type": "DocType",
+      "link_to": "CCC Company Settings",
+      "color": "Green",
+      "icon": "settings"
+    },
+    {
+      "label": "Leistungen",
+      "type": "DocType",
+      "link_to": "CCC Service",
+      "color": "Green",
+      "icon": "star"
+    },
+    {
+      "label": "News & Aktuelles",
+      "type": "DocType",
+      "link_to": "CCC News Article",
+      "color": "Green",
+      "icon": "newspaper"
+    },
+    {
+      "label": "FAQ",
+      "type": "DocType",
+      "link_to": "CCC FAQ",
+      "color": "Green",
+      "icon": "help-circle"
+    },
+    {
+      "label": "Kundenstimmen",
+      "type": "DocType",
+      "link_to": "CCC Testimonial",
+      "color": "Green",
+      "icon": "quote-left"
+    },
+    {
+      "label": "Statistiken",
+      "type": "DocType",
+      "link_to": "CCC Stat",
+      "color": "Green",
+      "icon": "bar-chart"
+    },
+    {
+      "label": "Prozess-Schritte",
+      "type": "DocType",
+      "link_to": "CCC Process Step",
+      "color": "Green",
+      "icon": "list"
+    },
+    {
+      "label": "Ansprechpartner",
+      "type": "DocType",
+      "link_to": "CCC Contact Person",
+      "color": "Green",
+      "icon": "users"
+    }
+  ],
+  "content": "[{\"id\": \"shortcuts\", \"type\": \"onboarding\"}]"
+}
